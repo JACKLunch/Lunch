@@ -175,46 +175,13 @@
 		52E423FC1AD91E2D0019B077 = {
 			isa = PBXGroup;
 			children = (
-				94C9FCA91AEC21D80025F105 /* Bolts.framework */,
-				94C9FCAA1AEC21D80025F105 /* Parse.framework */,
-				1B518CF31ADAAF3C0022A9D4 /* NOVABOLD.otf */,
-				1BDE1FEC1ADAA0AF00F75BDE /* libsqlite3.dylib */,
-				1BDE1FEA1ADAA0A700F75BDE /* libz.dylib */,
-				943D3CB51ADF42B7001BD0BE /* Bolts.framework */,
-				943D3CB61ADF42B7001BD0BE /* Parse.framework */,
-				1BDE1FD41ADAA00300F75BDE /* AudioToolbox.framework */,
-				1BDE1FD51ADAA00300F75BDE /* CFNetwork.framework */,
-				1BDE1FD61ADAA00300F75BDE /* CoreGraphics.framework */,
-				1BDE1FD71ADAA00300F75BDE /* CoreLocation.framework */,
-				1BDE1FD81ADAA00300F75BDE /* MobileCoreServices.framework */,
-				1BDE1FD91ADAA00300F75BDE /* QuartzCore.framework */,
-				1BDE1FDA1ADAA00300F75BDE /* Security.framework */,
-				1BDE1FDB1ADAA00300F75BDE /* StoreKit.framework */,
-				1BDE1FDC1ADAA00300F75BDE /* SystemConfiguration.framework */,
-				1BDE1FAA1ADA9B5100F75BDE /* AppIcon.png */,
-				1BDE1FAB1ADA9B5100F75BDE /* BigNo.png */,
-				1BDE1FAC1ADA9B5100F75BDE /* BigYes.png */,
-				1BDE1FAD1ADA9B5100F75BDE /* ForkYes.png */,
-				1BDE1FAE1ADA9B5100F75BDE /* ForkYes2.png */,
-				1BDE1FAF1ADA9B5100F75BDE /* ForkYesButton.png */,
-				1BDE1FB01ADA9B5100F75BDE /* KnifeNo.png */,
-				1BDE1FB11ADA9B5100F75BDE /* KnifeNo2.png */,
-				1BDE1FB21ADA9B5100F75BDE /* KnifeNoButton.png */,
-				1BDE1FB31ADA9B5100F75BDE /* LunchBackground.png */,
-				1BDE1FB41ADA9B5100F75BDE /* LunchBox.png */,
-				1BDE1FB51ADA9B5100F75BDE /* LunchBox2.png */,
-				1BDE1FB61ADA9B5100F75BDE /* LunchSplashBag.png */,
+				6761EC7E1B239496004989FD /* Frameworks */,
+				6761EC7D1B239439004989FD /* Imgs */,
 				1B518CF11ADAAEBD0022A9D4 /* NOVABOLD.otf */,
-				1BDE1FB71ADA9B5100F75BDE /* LunchSplashPage.png */,
-				1BDE1FB81ADA9B5100F75BDE /* LunchSplashPage2.png */,
-				1BDE1FB91ADA9B5100F75BDE /* LunchSplashPage3.png */,
-				1BDE1FBA1ADA9B5100F75BDE /* No.png */,
-				1BDE1FBB1ADA9B5100F75BDE /* UBER_API_Badges_1x_28px.png */,
-				1BDE1FBC1ADA9B5100F75BDE /* UBER_API_RIDE BY UBER Badges_1x BLACK_28px.png */,
-				1BDE1FBD1ADA9B5100F75BDE /* Yes.png */,
+				1B518CF11ADAAEBD0022A9D4 /* NOVABOLD.otf */,
 				52E4242C1AD9207D0019B077 /* Contact.swift */,
-				52EE85E71B1D02F100909AD9 /* ContactList.plist */,
 				1BDE1FD21ADA9EE400F75BDE /* Uber.swift */,
+				52EE85E71B1D02F100909AD9 /* ContactList.plist */,
 				52E424071AD91E2D0019B077 /* LunchMore */,
 				52E4241D1AD91E2D0019B077 /* LunchMoreTests */,
 				52E424061AD91E2D0019B077 /* Products */,
@@ -287,6 +254,55 @@
 				52E4241F1AD91E2D0019B077 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6761EC7D1B239439004989FD /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				1BDE1FEC1ADAA0AF00F75BDE /* libsqlite3.dylib */,
+				1BDE1FEA1ADAA0A700F75BDE /* libz.dylib */,
+				1BDE1FBB1ADA9B5100F75BDE /* UBER_API_Badges_1x_28px.png */,
+				1BDE1FBC1ADA9B5100F75BDE /* UBER_API_RIDE BY UBER Badges_1x BLACK_28px.png */,
+				1BDE1FBD1ADA9B5100F75BDE /* Yes.png */,
+				1BDE1FBA1ADA9B5100F75BDE /* No.png */,
+				1BDE1FAA1ADA9B5100F75BDE /* AppIcon.png */,
+				1BDE1FAB1ADA9B5100F75BDE /* BigNo.png */,
+				1BDE1FAC1ADA9B5100F75BDE /* BigYes.png */,
+				1BDE1FAD1ADA9B5100F75BDE /* ForkYes.png */,
+				1BDE1FAE1ADA9B5100F75BDE /* ForkYes2.png */,
+				1BDE1FAF1ADA9B5100F75BDE /* ForkYesButton.png */,
+				1BDE1FB01ADA9B5100F75BDE /* KnifeNo.png */,
+				1BDE1FB11ADA9B5100F75BDE /* KnifeNo2.png */,
+				1BDE1FB21ADA9B5100F75BDE /* KnifeNoButton.png */,
+				1BDE1FB31ADA9B5100F75BDE /* LunchBackground.png */,
+				1BDE1FB41ADA9B5100F75BDE /* LunchBox.png */,
+				1BDE1FB51ADA9B5100F75BDE /* LunchBox2.png */,
+				1BDE1FB61ADA9B5100F75BDE /* LunchSplashBag.png */,
+				1BDE1FB71ADA9B5100F75BDE /* LunchSplashPage.png */,
+				1BDE1FB81ADA9B5100F75BDE /* LunchSplashPage2.png */,
+				1BDE1FB91ADA9B5100F75BDE /* LunchSplashPage3.png */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		6761EC7E1B239496004989FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943D3CB61ADF42B7001BD0BE /* Parse.framework */,
+				943D3CB51ADF42B7001BD0BE /* Bolts.framework */,
+				94C9FCA91AEC21D80025F105 /* Bolts.framework */,
+				94C9FCAA1AEC21D80025F105 /* Parse.framework */,
+				1BDE1FD41ADAA00300F75BDE /* AudioToolbox.framework */,
+				1BDE1FD51ADAA00300F75BDE /* CFNetwork.framework */,
+				1BDE1FD61ADAA00300F75BDE /* CoreGraphics.framework */,
+				1BDE1FD71ADAA00300F75BDE /* CoreLocation.framework */,
+				1BDE1FD81ADAA00300F75BDE /* MobileCoreServices.framework */,
+				1BDE1FD91ADAA00300F75BDE /* QuartzCore.framework */,
+				1BDE1FDA1ADAA00300F75BDE /* Security.framework */,
+				1BDE1FDB1ADAA00300F75BDE /* StoreKit.framework */,
+				1BDE1FDC1ADAA00300F75BDE /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

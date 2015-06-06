@@ -68,7 +68,7 @@ class AddressViewController: UIViewController, UITableViewDelegate {
         for counter in 0..<ABMultiValueGetCount(emails){
             
             let email = ABMultiValueCopyValueAtIndex(emails,
-            counter).takeRetainedValue() as String
+            counter).takeRetainedValue() as! String
             
             println(email)
             println("adsfas")
@@ -88,9 +88,9 @@ class AddressViewController: UIViewController, UITableViewDelegate {
         for person: ABRecordRef in allPeople{
             
             let firstName = ABRecordCopyValue(person,
-            kABPersonFirstNameProperty).takeRetainedValue() as String
+            kABPersonFirstNameProperty).takeRetainedValue() as! String
             let lastName = ABRecordCopyValue(person,
-            kABPersonLastNameProperty).takeRetainedValue() as String
+            kABPersonLastNameProperty).takeRetainedValue() as! String
             
             println("First name = \(firstName)")
             println("Last name = \(lastName)")
