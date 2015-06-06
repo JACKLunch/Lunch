@@ -64,8 +64,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let destinationViewController = storyboard.instantiateViewControllerWithIdentifier("PushController") as UIViewController
-        let tab = self.window?.rootViewController as UINavigationController
+        let destinationViewController = storyboard.instantiateViewControllerWithIdentifier("PushController") as! UIViewController
+        let tab = self.window?.rootViewController as! UINavigationController
         tab.pushViewController(destinationViewController, animated: false)
     }
     

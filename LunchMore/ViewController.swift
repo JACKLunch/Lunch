@@ -96,7 +96,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         cell.textLabel?.textAlignment = NSTextAlignment.Center */
         if ( userDict.objectForKey("Username") != nil ){                        //read the Username in User Dictionary
         
-            let username:String = userDict.objectForKey("Username") as String
+            let username:String = userDict.objectForKey("Username") as! String
             println("\(username)")
             cell.textLabel?.text = username
             cell.textLabel?.textColor = UIColor.whiteColor()
@@ -110,7 +110,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         if(userDict.objectForKey("Available") != nil ){                         //read Available in User Dictionary
             
-            let availability:Bool = userDict.objectForKey("Available") as Bool
+            let availability:Bool = userDict.objectForKey("Available") as! Bool
             println("\(availability)")
             
             if (availability == true) {                                        //Create availability image is user is available
